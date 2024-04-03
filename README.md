@@ -82,7 +82,7 @@ aws ecr create-repository --repository-name $REPOSITORY_NAME --region $REGION --
 docker push $AWS_ACCOUNT_ID.dkr.ecr.$REGION.amazonaws.com/$REPOSITORY_NAME:latest
 ```
 
-### Deploy to AWS Lambda:
+#### Deploy to AWS Lambda:
 ```sh
 aws lambda create-function \
   --function-name $FUNCTION_NAME \
