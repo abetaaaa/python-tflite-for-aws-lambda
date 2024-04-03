@@ -14,6 +14,8 @@
 This repository contains the necessary resources to deploy TensorFlow Lite on AWS Lambda using Docker and ECR.  
 TensorFlow Lite allows you to run lightweight deep learning models on resource-limited environment like AWS Lambda.  
 
+![architecture](https://github.com/abetaaaa/python-tflite-for-aws-lambda/assets/78013610/d350841c-ab3d-447d-a638-550865201dbf)
+
 
 ## Environment
 | Language/Library   | Version |
