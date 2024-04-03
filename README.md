@@ -26,7 +26,8 @@ TensorFlow Lite allows you to run lightweight deep learning models on resource-l
 .  
 ├── Dockerfile  
 ├── README.md  
-├── awsconf  
+├── awsconf
+├── build_and_deploy_ecr.sh
 ├── models/  
 │   └── (put your tflite models here)  
 ├── requirements.txt  
