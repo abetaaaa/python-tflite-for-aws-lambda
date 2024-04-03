@@ -95,11 +95,11 @@ aws lambda create-function \
 ```
 
 
-## Precautions
-When using a tflite-runtime version newer than 2.7.0, you may encounter the following error.  
-```bash
-[ERROR] Runtime.ImportModuleError: Unable to import module 'lambda_function': /lib64/libm.so.6: version 'GLIBC_2.27' not found (required by /opt/python/lib/python3.9/site-packages/tflite_runtime/_pywrap_tensorflow_interpreter_wrapper.so)
-```
+> [!CAUTION]
+> When using a tflite-runtime version newer than 2.7.0, you may encounter the following error.  
+>```bash
+>[ERROR] Runtime.ImportModuleError: Unable to import module 'lambda_function': /lib64/libm.so.6: version 'GLIBC_2.27' not found (required by /opt/python/lib/python3.9/site-packages/tflite_runtime/_pywrap_tensorflow_interpreter_wrapper.so)
+>```
 
 ## References
 - https://docs.aws.amazon.com/lambda/latest/dg/python-image.html
